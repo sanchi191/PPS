@@ -1,4 +1,6 @@
-Write a program to print calculator
+## Write a program to print calculator
+```C
+#include<stdio.h>
 void main()
 {
         int num1, num2, res;
@@ -39,14 +41,15 @@ switch(op)
         }
 
 }
+```
 OUTPUT:
 Enter the First number:23
 Enter the second number:45
 What operation do you want to perform s for sum, b for subtract, d for divide , m for multiply m
 The product of the chosen number is :1035
 
-Write a program for bubble sorting
-Write a program for bubble sorting
+## Write a program for bubble sorting
+```C
 #include<stdio.h>
 int main()
 {
@@ -72,7 +75,8 @@ printf("Array elements after sorting \n");
 for(i=0;i<n;i++)
 printf("%d",a[i]);
 return(0);
-} 
+}
+```
 output
 Enter the size of array6
 Enter 1 no. of arrays9
@@ -84,7 +88,8 @@ Enter 1 no. of arrays9
 Array elements after sorting 
 46792345    
 
-Write a program for binary search
+## Write a program for binary search
+```C
 #include <stdio.h>
       int main()
      {
@@ -120,12 +125,13 @@ Write a program for binary search
         if (first > last)
            printf("Not found! %d isn't present in the list.\n", search);
       
-        return 0;  
+        return 0;}
+```
     
-Program to Find factorial of a number using recursion:
+## Program to Find factorial of a number using recursion:
+```C
 int count = 1, num;
 int multiply(int num);
-
 int main(){
 printf("Welcome to the program to find factorial by recursion");
 printf("Write the number:\n");
@@ -140,12 +146,14 @@ if(num>1){
  multiply(num - 1);
 }
 return count;}
+```
 OUTPUT:
 Welcome to the program to find factorial by recursionWrite the number:
 8
 The facorial is 40320
 
-Program of FizzBuzz:
+## Program of FizzBuzz:
+```C
 int num;
 int main(){
 printf("Welcome to the Fizz Buzz Program");
@@ -158,12 +166,14 @@ printf("Buzz");
 if (num%3 == 0 && num%5 == 0)
 printf("FizzBuzz"); 
 }
+```
 OUTPUT:
 Welcome to the Fizz Buzz Program
 Enter The number:45
 FizzBuzz
 
-Write a program to find sum of first 100 numbers
+## Write a program to find sum of first 100 numbers
+```C
 #include<stdio.h>
 int main()
 {
@@ -177,7 +187,9 @@ number++;
 printf("sum of first 100 positive no. is %d",sum);
 return(0);
 }
-Write a program to find greater of two numbers
+```
+## Write a program to find greater of two numbers
+```C
 #include<stdio.h>
 int main()
 {
@@ -190,8 +202,10 @@ else
 printf("b is greater");
 return(0);
 }
+```
 
-Write a program to find greater of three numbers
+## Write a program to find greater of three numbers
+```C
 #include<stdio.h>
 int biggestnumber(int a,int b,int c);
 int main()
@@ -218,8 +232,10 @@ return b;
 else
 return c;
 }
+```
 
-Write a program to find GCD of numbers
+## Write a program to find GCD of numbers
+```C
 #include<stdio.h>
 int main()
 {
@@ -235,8 +251,10 @@ m=r;
 printf("\n GCD=%d",n);
 return(0);
 }
+```
 
- Program to check a Leap year
+## Program to check a Leap year
+```C
 int year;
 int main(){
 printf("Hi welcome to the program that checks the leap year");
@@ -246,14 +264,15 @@ if (year%4 == 0)
 printf("The year is a leap year");
 else
 printf("The year is not a leap year");
-
 }
+```
 OUTPUT:
 Hi welcome to the program that checks the leap yearPlease enter the value of the year
 2005
 The year is not a leap year
 
-Write a program for linear search
+## Write a program for linear search
+```C
 #include<stdio.h>
 int main()
 {
@@ -277,9 +296,11 @@ if(c==n)
 printf("%d element is not found\n",search);
 return(0);
 }
+```
 
-Program to add to Matrix:
+## Program to add to Matrix:
 
+```C
 int a[3][3], b[3][3],c[3][3], i ,j;
 int main(){
 printf("Welcome to the Matrix Program");
@@ -289,8 +310,6 @@ for(i=0;i<3;i++){
 for(j=0;j<3;j++){
 scanf("%d",&a[i][j]);
 }}
-
-
 printf("Enter the value of matrix B");
 for(i=0;i<3;i++){
 for(j=0;j<3;j++){
@@ -314,6 +333,7 @@ printf("\n");}
 
 
 }
+```
 OUTPUT:
 Welcome to the Matrix ProgramEnter the value of matrix A
 23
@@ -340,8 +360,9 @@ Now the program is displaying the addition of matrix
 112 85 126
 81 117 107
 
-21)Program to Display Transpose of Matrix:
+### Program to Display Transpose of Matrix:
 
+```C
 int a[3][3],c[3][3], i ,j;
 int main(){
 printf("Welcome to the Matrix Transpose Program");
@@ -376,6 +397,7 @@ printf("\n");}
 
 }
 }
+```
 OUTPUT:
 Welcome to the Matrix Transpose ProgramEnter the value of matrix34
 34
@@ -392,8 +414,9 @@ Now the program is displaying the transpose of matrix
 34 536 97
 56 75 7
 
-Write a program to find sum of digits of number
-    #include<stdio.h> 
+## Write a program to find sum of digits of number
+```C
+#include<stdio.h> 
      int main() 
     { 
     int n,sum=0,m;
@@ -408,7 +431,7 @@ Write a program to find sum of digits of number
     printf("Sum is=%d",sum); 
     return 0;
     } 
-
+```
 Output:
 
 Enter a number:654
@@ -417,8 +440,9 @@ Sum is=15
 Enter a number:123
 Sum is=6
 
-Program to check if a number is Palindrome
+## Program to check if a number is Palindrome
 
+```C
 int x,num, num_loop,rev= 0;
 int main(){
 printf("Welcome to the palindrome function\n");
@@ -435,13 +459,15 @@ printf("oh yes ! You wrote a palindrome number");
 else
 printf("sorry the number is not a palindrome");
 }
+```
 OUTPUT:
 Welcome to the palindrome function
 Enter the number:
 234565432
 oh yes ! You wrote a palindrome number
 
-Program to swap two numbers by call by value
+## Program to swap two numbers by call by value
+```C
 void swap(int a,int b);
 void main()
 {
@@ -466,6 +492,7 @@ a=b;
 b=temp;
 printf("\n Value of a=%d,Value of b=%d after swaping\n",a,b);
 }
+```
 OUTPUT:
 Enter value for x:45
 Enter value for y:56
@@ -478,7 +505,8 @@ After returning from swap function
 Value of x=45,value of y=56
 
 
-Program to swap two numbers by call by reference
+## Program to swap two numbers by call by reference
+```C
 void swap(int *,int *);
 void main()
 {
@@ -503,6 +531,7 @@ temp=*a;
 *b=temp;
 printf("\n Value of a=%d,Value of b=%d after swaping\n",*a,*b);
 }
+```
 OUTPUT:
 Enter value for x:23
 Enter value for y:45
@@ -514,7 +543,8 @@ Value of a=45,Value of b=23 after swaping
 After returning from swap function
 Value of x=45,value of y=23
 
-Write a program to print details of employees
+## Write a program to print details of employees
+```C
 #include<stdio.h>
 #include<string.h>
 struct employee
@@ -538,7 +568,9 @@ scanf("%f",&aemployee.salary);
 printf("particulars of employee are ");
 printf("%d%s%s%f",aemployee.code,aemployee.name,aemployee.department,aemployee.salary);
 }
-**Write a program to add two numbers**
+``` 
+## **Write a program to add two numbers**
+```C
 #include<stdio.h>
 int addnumbers(int a,int b);
 int main()
@@ -556,8 +588,10 @@ int c;
 c=a+b;
 return(c);
 }
+```
 
-***Write a program to find average of n numbers***
+## **Write a program to find average of n numbers**
+```C
 #include<stdio.h>
 int main()
 {
@@ -576,8 +610,11 @@ average=sum/n;
 printf("average of numbers is %f",n,average);
 return(0);
 }
+```
 
-***Write a program to print weekdaysinclude<stdio.h>***
+## **Write a program to print weekdays**
+```C
+include<stdio.h>
 int main()
 {
 int days;
@@ -604,8 +641,11 @@ break;
 }
 return(0);
 }
+```
 
-Write a program to find whether a number is odd or even#include<stdio.h>
+## Write a program to find whether a number is odd or even
+```C
+#include<stdio.h>
 int main()
 {
 int n;
@@ -617,8 +657,10 @@ else
 printf("number is odd");
 return(0);
 }
+```
 
-Write a program to print tableinclude<stdio.h>
+## Write a program to print tableinclude<stdio.h>
+```C
 int main()
 {
 int i,mul,n,s;
@@ -632,8 +674,10 @@ printf("\n%d*%d=%d    %d*%d=%d",n,i,mul,n,10+i,s);
 }
 return(0);
 }
+```
 
-Write a program to check whether the number is armstrong number or not#include<stdio.h>
+## Write a program to check whether the number is armstrong number or not#include<stdio.h>
+```C
 #include<math.h>
 int main()
 {
@@ -653,9 +697,4 @@ else
 printf("%d is not an armstrong number",num);
 return(0);
 }
-
-
-
-
-
-
+```
